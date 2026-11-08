@@ -1,0 +1,32 @@
+<!-- HTML = hacer un formulario para ingresar que eñusuario ingrese input y boton enviar, ESPACIO PARA INSERTAR LISTA
+
+INPUT
+CAMPO DE TEXTO 
+BTN AGREGAR
+
+
+TABla con DOM:
+Columnas = Nombre del Producto, Cantidad, Opciones 
+BTN ELIMINAR  -->
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/main.css" />
+        <title>Lista de productos con LocalStorage</title>
+    </head>
+    <body>
+        <form action="" id="formularioCompra">
+            <h1>Lista de productos</h1>
+            <input type="text" placeholder="Agregar producto" id="inputProducto" required />
+            <button type="submit" class="botonAgregar" id="botonAgregar">
+                Agregar Producto
+            </button>
+            <div class="tablaMuestraProducto" id="tablaMuestraProducto"></div>
+            <span id="respuesta"></span>
+        </form>
+        <script src="js/main.js"></script>
+    </body>
+</html>
